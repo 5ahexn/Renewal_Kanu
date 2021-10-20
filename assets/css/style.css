@@ -7,10 +7,10 @@ header {
     width: 100%;   
 }
 
-header .container .logo img{
+/* header .container .logo img{
     width: 35%;
     padding: 1rem;
-}
+} */
 
 header .container .menu {
     display: none;
@@ -105,6 +105,8 @@ header .container .menu > li a {
     /* Header */
     header .container .logo {
         display: block;
+        display: flex;
+        justify-content: space-between;
     }
     .brand .desktop_main .background_img {
         width: 100%;
